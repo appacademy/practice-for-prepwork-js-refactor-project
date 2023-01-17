@@ -83,18 +83,18 @@ function threeOrSeven(num) {
 
 /*
     Original:
-    Write a function, `countVowels(word)`, that takes in a string word and
-    returns the number of vowels in the word.
+    Write a function, `countVowels(str)`, that takes in a string and
+    returns the number of vowels in the string.
 
     New:
-    Write a function, `countConsonants(word)`, that takes in a string word and
-    returns the number of consonants in the word.
+    Write a function, `countConsonants(str)`, that takes in a string and
+    returns the number of consonants in the string.
 */
-function countVowels(word) {
+function countVowels(str) {
     const vowels = ["a", "e", "i", "o", "u"];
     let count = 0;
-    for (let i = 0; i < word.length; i++) {
-        if (vowels.includes(word[i])) {
+    for (let i = 0; i < str.length; i++) {
+        if (vowels.includes(str[i])) {
             count++;
         }
     }
